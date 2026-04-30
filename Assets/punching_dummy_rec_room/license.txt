@@ -1,0 +1,11 @@
+Model Information:
+* title:	Punching Dummy (Rec Room)
+* source:	https://sketchfab.com/3d-models/punching-dummy-rec-room-9d36e9ed336b4b91b1a510eb1d5721ef
+* author:	CPG96 (https://sketchfab.com/CPG96)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Punching Dummy (Rec Room)" (https://sketchfab.com/3d-models/punching-dummy-rec-room-9d36e9ed336b4b91b1a510eb1d5721ef) by CPG96 (https://sketchfab.com/CPG96) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
