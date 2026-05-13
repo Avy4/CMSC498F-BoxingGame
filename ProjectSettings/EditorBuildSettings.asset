@@ -6,12 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainScene.unity
+    guid: 7677301824d1e7b4badd41f2a97e9a70
+  - enabled: 1
+    path: Assets/Scenes/PunchingBag.unity
+    guid: 6c43b016882e862409edeecb79c26c0c
   m_configObjects:
-    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 37f02d1f79e64da48b089f105bfdc378, type: 2}
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c51adda4a3ed4694791caa749170501a, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 17316c9dd9be94d4a8204fb399c36955, type: 2}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 80736957bd0682f4baa252199273ccb8, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a72cd790054b03247a3b5f0c37cfa31f, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: bea22708e01d6324d9e937b3008b9436, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: ee48058134da2814caad7efe859d0660, type: 2}
   m_UseUCBPForAssetBundles: 0

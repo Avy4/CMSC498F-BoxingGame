@@ -1,0 +1,11 @@
+Model Information:
+* title:	Punching Bag
+* source:	https://sketchfab.com/3d-models/punching-bag-630f614158394a0dab676fa477a7c6d3
+* author:	Alex (https://sketchfab.com/ansron55)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Punching Bag" (https://sketchfab.com/3d-models/punching-bag-630f614158394a0dab676fa477a7c6d3) by Alex (https://sketchfab.com/ansron55) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

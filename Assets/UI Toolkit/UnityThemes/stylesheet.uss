@@ -1,0 +1,16 @@
+.container {
+    background-color: rgba(255, 255, 255, 0.28);
+    border-left-width: 10px;
+    border-top-width: 10px;
+    border-right-width: 10px;
+    border-bottom-width: 10px;
+    border-left-color: rgb(255, 76, 94);
+    border-right-color: rgb(255, 76, 94);
+    border-top-color: rgb(255, 76, 94);
+    border-bottom-color: rgb(255, 76, 94);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgb(255, 255, 255);
+}

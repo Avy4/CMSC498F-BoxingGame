@@ -79,6 +79,17 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.meta.xr.sdk.movement": {
+      "version": "https://github.com/oculus-samples/Unity-Movement.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {
+        "com.unity.burst": "1.8.18",
+        "com.unity.textmeshpro": "3.0.6",
+        "com.unity.ugui": "1.0.0"
+      },
+      "hash": "2d2fe7d8ce451e69be0599eee2f597b5935f8e04"
+    },
     "com.meta.xr.sdk.platform": {
       "version": "201.0.0",
       "depth": 1,
@@ -280,7 +291,7 @@
     },
     "com.unity.textmeshpro": {
       "version": "5.0.0",
-      "depth": 2,
+      "depth": 1,
       "source": "builtin",
       "dependencies": {
         "com.unity.ugui": "2.0.0"
@@ -361,18 +372,8 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.oculus": {
-      "version": "4.5.4",
-      "depth": 0,
-      "source": "registry",
-      "dependencies": {
-        "com.unity.xr.management": "4.4.0",
-        "com.unity.modules.androidjni": "1.0.0"
-      },
-      "url": "https://packages.unity.com"
-    },
     "com.unity.xr.openxr": {
-      "version": "1.16.1",
+      "version": "1.17.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
