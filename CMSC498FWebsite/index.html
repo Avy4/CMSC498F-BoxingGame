@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletemplate.css">
+    <style>
+        a {
+            color:rgb(45, 45, 246)
+        }
+    </style>
+    <title>CMSC498F - Boxing Sim</title>
+</head>
+<body class = "main">
+    <header>
+        <h1>
+            <span style="color: rgb(203, 24, 24);">Boxing</span>
+            <span style="color: rgb(45, 45, 246);">Sim</span>
+        </h1>
+        <h2>Avyukth Selvadurai</h2>
+    </header>
+    <br><hr><br>
+    <div>
+        <h3>Description</h3>
+        <p>This game is meant to be a simple but immersive experience created to teach the basics of boxing through interactive gameplay and mechanics.</p>
+        <br>
+        <h3>Motivation</h3>
+        <p>To make use of all the things we learned in class: physically based audio, virtual object interaction, IRL -> VR locomotion.<br> Game design is my focus not research so being able to learn new things in Unity is very important to me.</p>
+    </div>
+    <br><hr><br>
+    <div>
+        <h3>Proposed Work: </h3>
+        <ul>
+            <li><h4>Short Term Goals</h4>
+                <ul>
+                    <li>Smooth tracking of hands with controller.</li>
+                    <li>Smooth tracking of hands without controller.</li>
+                    <li>Simple audio interaction (audio clip plays) on punch impact.</li>
+                    <li>Immersive environment and scene setup with light, textures, and materials.</li>
+                </ul>
+            </li>
+            <br>
+            <li><h4>Medium Term goals</h4>
+                <ul>
+                    <li>Full body tracking.</li>
+                    <li>IRL Locomotion -> VR Movement (walking around IRL moves you in game).</li>
+                    <li>Physically based audio.</li>
+                    <li>Activity where you can combine these features to learn basic boxing skills.</li>
+                </ul>
+            </li>
+            <br>
+            <li><h4>Long Term goals</h4>
+                <ul>
+                    <li>Full body tracking -> translation of movement to a 3D model ingame.</li>
+                    <li>Teaching basic moves through simulation.</li>
+                </ul>
+            </li>           
+        </ul>
+        <br>
+        <h3>Completed Work: </h3>
+        <ul>
+            <li><h4>Short Term Goals</h4>
+                <ul>
+                    <li>Hands are tracked with and without the controller. Velocity is only displayed while using the controller.</li>
+                    <li>An audio clip of a punch plays on impact with the boxing bag. Its sound level scales with punch impact.</li>
+                    <li>Two environments have been created, one boxing ring, one simple training setting which multiple scenes use.</li>
+                </ul>
+            </li>
+            <br>
+            <li><h4>Medium Term goals</h4>
+                <ul>
+                    <li>IRL Locomotion has been implemented. The scene has simply been set to a stage which enables movement.</li>
+                    <li>Audio is physically based in the scenes using steamaudio and steamaudio materials.</li>
+                    <li>Multiple training scenes have been created:
+                        <ul>
+                            <li>Main scene that teaches you your stance (orthodox/southpaw)</li>
+                            <li>Punching dummy scene that teaches you two punches (jab (1) and cross (2)) along with a simple 1, 2 combination </li>
+                            <li>Realistics punching bag scene that shows basic statistics like velocity and hit position</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li><h4>Long Term goals</h4>
+                <ul>
+                    <li>The groundwork for teaching basic moves through the game has been implemented. While its efficacy isn't as high as I would like it to be it exists. </li>
+                </ul>
+            </li>          
+        </ul>
+    </div>
+    <br><hr><br>
+    <div>
+        <h3>Project Documentation</h3>
+        <h4><a href="https://github.com/Avy4/CMSC498F-BoxingGame">GitHub Repository</a></h4>
+        <br>
+        <h4>3D Models and Meshes: </h4>
+        <ul> Free models from Sketchfab were used throughout this project:
+            <li><a href="https://sketchfab.com/3d-models/boxing-gloves-left-handed-076293541203455da59a38eea5b6a44b">Low Poly Left Glove</a></li>
+            <li><a href="https://sketchfab.com/3d-models/boxing-gloves-right-handed-1ae09e8e4959418b9c4274f9515c5d29">Low Poly Right Glove</a></li>
+            <li><a href="https://sketchfab.com/3d-models/punching-dummy-rec-room-9d36e9ed336b4b91b1a510eb1d5721ef">Rec Room Punching Dummy</a></li>
+            <li><a href="https://sketchfab.com/3d-models/punching-bag-from-poly-by-google-482c67c45711443ab1d91c4459d0574d">Punching Bag from Poly by Google</a></li>
+            <li><a href="https://sketchfab.com/3d-models/boxing-headgear-helmet-low-poly-498387769b0347f292ab1bdbddbfe719">Low Poly Boxing Headgear</a></li>
+        </ul>
+        <p></p>
+    </div>
+
+</body>
+</html>
