@@ -1,0 +1,8 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/Prefabs/UI%20Toolkit/UnityThemes/stylesheet.uss?fileID=7433441132597879392&amp;guid=1907f1cdcf0bd6047803b1133bafecc3&amp;type=3#stylesheet"/>
+    <ui:VisualElement name="OuterContainer" class="container" style="flex-grow: 1; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px; border-left-color: rgb(77, 156, 224); border-right-color: rgb(77, 156, 224); border-top-color: rgb(77, 156, 224); border-bottom-color: rgb(77, 156, 224);">
+        <ui:Label text="Hello! Welcome to the ring where you will learn to:&#10; - Get into position&#10; - Throw the 1 (Jab) and 2 (Cross/Straight)" name="TopText" style="margin-left: 4px; padding-left: 2px; margin-bottom: 4px; white-space: normal; font-size: 16px; height: 81px;"/>
+        <ui:Label text="Before we start, I need some information.&#10;&#10;Get into what you think is a boxing stance. You should go with whatever position you think is &lt;color=yellow&gt;comfortable&lt;/color&gt;. When ready, hit the dummy with your &lt;color=red&gt;lead hand&lt;/color&gt;. " name="BottomText" style="margin-left: 4px; padding-left: 2px; margin-bottom: 4px; white-space: normal; font-size: 16px; height: 205px; width: 317px; margin-top: 4px; padding-top: 70px;"/>
+        <ui:Image source="" name="StanceImage" style="height: 214px; position: absolute; width: 328px; margin-top: 0; top: 116px; left: auto;"/>
+    </ui:VisualElement>
+</ui:UXML>
