@@ -11,6 +11,7 @@ public class PunchingBag : MonoBehaviour
     private float threshold = .3f;
     private int hitCounter = 0;
 
+    // Init private UI Document variables
     void Start()
     {
         rootElement = userInterface.rootVisualElement;
@@ -19,6 +20,7 @@ public class PunchingBag : MonoBehaviour
         hitCounterLabel = rootElement.Query<Label>("HitCounterLabel");
     }
 
+    // Checks for a collision with the bag
     void OnCollisionEnter(Collision collision)
     {
         GameObject otherCollisionObject = collision.collider.gameObject;
@@ -32,6 +34,7 @@ public class PunchingBag : MonoBehaviour
         }
     }
 
+    // Plays a sound based on the impact force of the punch
     void PlaySound(Collision c)
     {
         float impactForce = c.relativeVelocity.magnitude;
@@ -42,6 +45,7 @@ public class PunchingBag : MonoBehaviour
         }
     }
 
+    // Changes velocity on the dashboard, only works if you use the actual controller (Not hand tracking)
     void GetAndSetImpactVelocity(String tag)
     {
         Vector3 linearVelocity = new Vector3(100,100,100);
@@ -57,6 +61,7 @@ public class PunchingBag : MonoBehaviour
         velocityValue.text = $"{linearVelocity} m/s";
     }
 
+    // Gets the point of collision and adds it to the dashboard
     void GetAndSetCollisionPosition(Collision c)
     {
         ContactPoint contact = c.GetContact(0);
@@ -65,6 +70,7 @@ public class PunchingBag : MonoBehaviour
         contactAreaValue.text = $"{impactPoint}";
     }
 
+    // +1
     void AddToHitCounter()
     {
         hitCounter += 1;
