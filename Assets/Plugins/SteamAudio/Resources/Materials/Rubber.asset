@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb82a87a4954a947923856a12b49b38, type: 3}
   m_Name: Rubber
   m_EditorClassIdentifier: SteamAudioUnity::SteamAudio.SteamAudioMaterial
-  lowFreqAbsorption: 0.15
-  midFreqAbsorption: 0.4
-  highFreqAbsorption: 0.7
+  lowFreqAbsorption: 0.75
+  midFreqAbsorption: 0.2
+  highFreqAbsorption: 0.35
   scattering: 0.8
   lowFreqTransmission: 0.05
   midFreqTransmission: 0.02

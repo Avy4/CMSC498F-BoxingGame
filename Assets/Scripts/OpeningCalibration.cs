@@ -1,17 +1,19 @@
 using System;
-using System.ComponentModel;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
 
 public class OpeningCalibration : MonoBehaviour
 {
     [SerializeField] UIDocument userInterface;
     [SerializeField] Texture2D[] stances;
+    [SerializeField] string nextScene;
     private enum DominantHand {LEFT, RIGHT, EMPTY}
     private DominantHand hand = DominantHand.EMPTY;
     private VisualElement rootElement;
     private Label topText, bottomText;
     private Image stanceImage;
+    private bool readyToExit = false;
 
     void Start()
     {
@@ -35,9 +37,14 @@ public class OpeningCalibration : MonoBehaviour
 
             ShowResult();
         }
-        else
+        else if (!readyToExit)
         {
             ShowImage();
+            readyToExit = true;
+        }
+        else
+        {
+            SceneManager.LoadScene(nextScene);
         }
     }
 

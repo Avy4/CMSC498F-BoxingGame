@@ -174,9 +174,9 @@ MonoBehaviour:
         type: 3}'
     - line: '|   - {fileID: 11400000, guid: 2678be64900a6c348a2a8de4456edea4, type:
         2}'
-    - line: '|   - {fileID: -3958975039977539820, guid: ee48058134da2814caad7efe859d0660,
-        type: 2}'
     - line: '|   - {fileID: -5148605076442783492, guid: bea22708e01d6324d9e937b3008b9436,
+        type: 2}'
+    - line: '|   - {fileID: -3958975039977539820, guid: ee48058134da2814caad7efe859d0660,
         type: 2}'
     - line: '|   metroInputSource: 0'
     - line: '|   wsaTransparentSwapchain: 0'

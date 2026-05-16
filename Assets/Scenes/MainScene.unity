@@ -2313,6 +2313,7 @@ MonoBehaviour:
   stances:
   - {fileID: 2800000, guid: aa45e31fab7c3e847baa717274e8c035, type: 3}
   - {fileID: 2800000, guid: eaefa51b57ea1ef4cba9b9f98f5ae322, type: 3}
+  nextScene: CombinationScene
 --- !u!1 &1665490254
 GameObject:
   m_ObjectHideFlags: 0

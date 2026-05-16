@@ -902,7 +902,7 @@ ConfigurableJoint:
   m_BreakTorque: Infinity
   m_EnableCollision: 0
   m_EnablePreprocessing: 1
-  m_MassScale: 0.3
+  m_MassScale: 0.8
   m_ConnectedMassScale: 1
 --- !u!54 &488192707
 Rigidbody:
@@ -1041,8 +1041,8 @@ Rigidbody:
   m_GameObject: {fileID: 520101873}
   serializedVersion: 5
   m_Mass: 1
-  m_LinearDamping: 0
-  m_AngularDamping: 0.05
+  m_LinearDamping: 3
+  m_AngularDamping: 1
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}

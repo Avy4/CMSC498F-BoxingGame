@@ -92,7 +92,9 @@
     <div>
         <h3>Project Documentation</h3>
         <h4><a href="https://github.com/Avy4/CMSC498F-BoxingGame">GitHub Repository</a></h4>
+        <p>Code is commented and can be viewed in root/Assets/Scripts</p>
         <br>
+
         <h4>3D Models and Meshes: </h4>
         <ul> Free models from Sketchfab were used throughout this project:
             <li><a href="https://sketchfab.com/3d-models/boxing-gloves-left-handed-076293541203455da59a38eea5b6a44b">Low Poly Left Glove</a></li>
@@ -101,8 +103,95 @@
             <li><a href="https://sketchfab.com/3d-models/punching-bag-from-poly-by-google-482c67c45711443ab1d91c4459d0574d">Punching Bag from Poly by Google</a></li>
             <li><a href="https://sketchfab.com/3d-models/boxing-headgear-helmet-low-poly-498387769b0347f292ab1bdbddbfe719">Low Poly Boxing Headgear</a></li>
         </ul>
-        <p></p>
+        <p>
+            To import these free models <a href="https://docs.unity3d.com/Packages/com.unity.cloud.gltfast@5.2/manual/index.html">gITFast</a> was used. 
+            Essentially its a package that allows for .gLTF files to be importated into Unity without corruption. Natively, the most common supported extensions used are .fbx and .obj.
+        </p>
+        <br>
+
+        <h4>Audio:</h4>
+        <p>This project relies on the <a href="https://valvesoftware.github.io/steam-audio/downloads.html">SteamAudio</a> package for physics-based audio. SteamAudio materials are used for the main punching bag scene to increase immersiveness.</p>
+        <br>
+
+        <h4>Meta Packages:</h4>
+        <p>
+            The main package used was the <a href="https://assetstore.unity.com/packages/tools/integration/meta-xr-core-sdk-269169?srsltid=AfmBOoqu86UoyYEss1BwWmueUgAbseqdy6P1sDXuLUfHfpMzzbfJMScK">Meta XR Core SDK</a>. 
+            This package essentially downloads all the other Meta SDKs with it allowing you to start creating immediately. Another important package that was used is the Meta Movement SDK. 
+            This package enables you to map IRL full body movement to a Unity Model (like the ones found on <a href="https://www.mixamo.com/#/">Mixamo</a>) in the game. 
+        </p>
+        <br>
+
+        <h4>Boxing Knowledge and Tips:</h4>
+        <p>
+            I created this simply because I thought it fit the theme well, I have no experience in boxing whatsoever. 
+            Thank you to <a href="https://www.youtube.com/@Tony_Jeffries">Tony Jeffries</a> for helping me understand basic technique. 
+            You can't teach something you dont't know anything about afterall.
+        </p>
+        <br>
+
+        <h4>Scene Setup:</h4>
+        <p>
+            The objects in the scene are all basic Unity building blocks other than the 3D models used. Textures are mainly just pictures from google, Unity automatically converts them into materials which is really nice. 
+            It makes it much easier to skin different objects since I just need to edit the material to give it the desired look.
+        </p>
+        <br>
+
+        <h4>Game Mechanics:</h4>
+        <ul>
+            <li>
+                <p>
+                    UI Documents were used heavily to relay information to the user. Similar to using a canvas object but instead of doing everything by hand its almost like you're doing html. 
+                    You can define a stylesheet, classes, ids, etc. just like you can with CSS. Thse UI Documents ended up turning out nicely.
+                </p>
+            </li>
+            <li>
+                <p>
+                    One interesting component I used to create the Punching Bag scene is a configurable joint. 
+                    It essentially allows for the range of motion that a bag should have when punched without getting detached from where its hanging.
+                </p>
+            </li>
+            <li>
+                <p>
+                    For the Punching Bag scene, another interesting mechanic I used was turning the punching bag into a jelly. 
+                    This allows it to deform, much like a very light punching bag would to a punch.
+                    This was done using the <a href="https://github.com/roundyyy/Jelly-Mesh-System">Jelly Mesh System</a> package by roundyyy.
+                </p>
+            </li>
+        </ul>
+        <br>
+
+        <h4>Problems Encountered:</h4>
+        <p>
+            The Meta Movement SDK recently broke <a href="https://communityforums.atmeta.com/discussions/Questions_Discussions/sudden-loss-of-body-tracking--crashes-with-unity-movement-sdk-quest-3-since-vers/1374118">(like literally a few days ago)</a>. It simply just doesn't work anymore because a recent update to the package messed with the OVR Body script. 
+            Whenever you try to start the scene initialization fails and the entire project crashes. Because of that you can't use a full body avatar.
+        </p>  
     </div>
 
+    <br><hr><br>
+
+    <div>
+        <h3>Future Work</h3>
+        <ul>
+            <li>Once the Meta Movement SDK is fixed, translating full body motion to an ingame avatar is the first priotity.</li>
+            <li>Adding more audio clips to give more variety when playing and fully adding audio in general.</li>
+            <li>Current method of teaching is through pictures and images, could implement 3D models doing the motion ingame for better learning.</li>
+        </ul>
+    </div>
+
+    <br><hr><br>
+
+    <div>
+        <h3>Picture and Video Gallery</h3>
+        <p>Unfortunately, volume is very low on the videos.</p>
+        <img src="/images/boxingScene.png" alt="Picture of the Boxing Scene" width="1280" height="720">
+        <img src="/images/dummyScene.png" alt="Picture of the Dummy Scene" width="1280" height="720">
+        <img src="/images/mainScene.png" alt="Picture of the Main Scene" width="1280" height="720">
+        <video width="1280" height="720" controls>
+            <source src="images/PunchingBagScene.mp4" type="video/mp4">
+        </video> 
+        <video width="1280" height="720" controls>
+            <source src="images/Training.mp4.mp4" type="video/mp4">
+        </video>
+    </div>
 </body>
 </html>
